@@ -26,7 +26,7 @@ For missing functionality, explain to what and why you would need. Bonus point i
 ## Deliverables
 
 * A video of your screen recording where you guide us through you doing the challenge (unlisted YouTube, Loom, .. any platform from where we can stream the video works). This means, you record yourself, while you solve the challenge.
-* Do not push a public fork with your solution, instead keep it unlinked to the original repo or make it private (if private, please invite @marcqualie and @ffiller)
+* Do not push a public fork with your solution, instead keep it unlinked to the original repo or make it private (if private, please invite @swiknaba, @arechsteiner, and @michaelmikh)
 
 
 
