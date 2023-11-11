@@ -11,7 +11,7 @@
     "node": ">= 16.15 <19"
   },
   "dependencies": {
-    "axios": "^0.27.2",
+    "axios": "^1.6.0",
     "next": "12.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0"
