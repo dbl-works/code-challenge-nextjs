@@ -9,9 +9,7 @@ const Page: NextPage = () => {
 
   return (
     <Layout>
-      <h1 className="text-2xl">DBL Code Challenge: Airports</h1>
-
-      <h2 className="mt-10 text-xl">All Airports</h2>
+      <h1 className="text-2xl">All Airports</h1>
 
       <div>
         {airports.map((airport) => (
