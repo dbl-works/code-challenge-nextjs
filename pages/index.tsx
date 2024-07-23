@@ -3,6 +3,7 @@ import { NextPage } from 'next'
 import Layout from '@/components/layout'
 import useApiData from '@/hooks/use-api-data'
 import Airport from '@/types/airport'
+import Link from 'next/link'
 
 const Page: NextPage = () => {
   const airports = useApiData<Airport[]>('/api/airports', [])
@@ -13,7 +14,7 @@ const Page: NextPage = () => {
 
       <div>
         {airports.map((airport) => (
-          <a
+          <Link
             href={`/airports/${airport.iata.toLowerCase()}`}
             key={airport.iata}
             className="mt-5 flex items-center shadow p-5 border"
@@ -22,7 +23,7 @@ const Page: NextPage = () => {
               {airport.name}, {airport.city}
             </div>
             <div className="ml-auto text-mono">{airport.country}</div>
-          </a>
+          </Link>
         ))}
       </div>
     </Layout>
