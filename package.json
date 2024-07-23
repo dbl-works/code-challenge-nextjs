@@ -5,7 +5,7 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "format": "yarn prettier --write './**/*.{js,json,ts,tsx}'",
+    "format": "yarn prettier --write './**/*.{js,json,ts,tsx,mjs}'",
     "lint": "next lint",
     "start": "next start"
   },

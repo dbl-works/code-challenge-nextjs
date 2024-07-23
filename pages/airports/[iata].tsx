@@ -1,8 +1,8 @@
 import { GetServerSideProps, NextPage } from 'next'
 
-import Layout from '../../components/layout'
-import { findAirportByIata } from '../../models/airport'
-import Airport from '../../types/airport'
+import Layout from '@/components/layout'
+import { findAirportByIata } from '@/models/airport'
+import Airport from '@/types/airport'
 import { ParsedUrlQuery } from 'node:querystring'
 
 interface Params extends ParsedUrlQuery {
